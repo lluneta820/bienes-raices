@@ -77,6 +77,11 @@ h4{
 
 
 /*Header*/
+.site-header{
+  background: #333333;
+  padding: 1 rem 0 3rem 0;
+
+}
 .site-header.inicio{
   background-image: url("../img/header.jpg");
   background-position: center center;
@@ -312,6 +317,14 @@ h4{
 
 }
 
+/**INTERNAS**/
+.contenido-nosotros{
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+
 
 
 
@@ -395,6 +408,30 @@ ul.clase1 --> etiqueta ul con clase "clase1"
  {
   color: white;
 }
+lista vertical
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333333;
+}
+li {
+float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+
+
+
+
+
+
 */
 
 
@@ -410,3 +447,5 @@ section {
 h1 {
   text-align: center;
 }
+
+**
