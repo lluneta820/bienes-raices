@@ -386,7 +386,7 @@ select{
   -webkit-appearance: none;
   appearance: none;
 }
-input [type="radio"]{
+input[type="radio"]{
   width: auto;
   margin: 0;
 
@@ -394,18 +394,18 @@ input [type="radio"]{
 textarea{
   height:20rem;
 }
+
 .forma-contacto{
   max-width: 30rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-
-
 }
 
-
-
+main {
+  max-width: 90vw;
+  margin: 0 auto;
+}
 
 
 
@@ -526,5 +526,3 @@ section {
 h1 {
   text-align: center;
 }
-
-**
