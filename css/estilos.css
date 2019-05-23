@@ -178,6 +178,17 @@ h4{
 .navegacion a:hover {
   color: #71B100;
 }
+/**Moblie barras**/
+.mobile-menu img{
+  width: 5rem;
+
+
+}
+@media (min-whidth:768px){
+  .mobile-menu {
+    display: none;
+  }
+}
 
 
 /**Iconos nosotros**/
