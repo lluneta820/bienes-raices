@@ -161,10 +161,10 @@ h4{
   display: block;
 
 }
-@media (min-whidth:768px){
+@media (min-width:768px){
   .navegacion a{
     display: inline-block;
-    font-size: 1,8rem;
+    font-size: 1.8rem;
     margin-right: 2rem;
 
   }
@@ -181,12 +181,25 @@ h4{
 /**Moblie barras**/
 .mobile-menu img{
   width: 5rem;
-
-
 }
-@media (min-whidth:768px){
+
+@media (min-width:768px){
   .mobile-menu {
     display: none;
+  }
+}
+
+.navegacion:target{
+  display: block;
+}
+
+.navegacion{
+  display: none;
+}
+
+@media (min-width:768px){
+  .navegacion{
+    display: block;
   }
 }
 
@@ -320,7 +333,7 @@ h4{
     justify-content: space-between;
 
   }
-@media(min-whitdh:768px){}
+@media(min-witdh:768px){}
   .entrada-blog .imagen{
     flex-basis: 40%;
 
@@ -408,7 +421,7 @@ h4{
 
 
 }
-@media(min-whitdh:768px){
+@media(min-witdh:768px){
   .contenedor-footer{
     display: flex;
     justify-content: space-between;
@@ -426,7 +439,7 @@ h4{
 }
 
 /**INTERNAS**/
-@media (min-whitdh:768px){
+@media (min-witdh:768px){
   .contenido-nosotros{
     .contenido-nosotros{
       display: grid;
